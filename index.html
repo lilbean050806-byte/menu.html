@@ -1,8 +1,137 @@
 <!DOCTYPE html>
+<html>
+<head>
+<title>Sweet Sisters Baking Co.</title>
 
-<html lang="en-ca">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Oswald:wght@500&family=Raleway:wght@400&display=swap" rel="stylesheet">  
 
-  <title>Exercise 5: CSS Layout</title>
-  <meta charset="utf-8">
+<style>
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  width: 960px;
+  margin: 0 auto;
+}
 
+h1 {
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 30;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+ 
+
+}
+  .navli-container { 
+  width: 920px;
+  background-color: #C1CBD2;
+  margin: 0px auto;
+  padding: 20px;
+  }
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #C1CBD2;
+  border-radius: 10px;
+ 
+}
+
+.logo-container {
+  width: 500px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 10px solid #535864;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.logo-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.nav-container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+  background-color: #535864;
+    background-image: url("Title.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.nav-container ul li a {
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0px;
+  padding: 0px;
+  margin-bottom: 40px;
+}
+
+.container div {
+  background-color: #abd;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+  
+footer {
+  text-align: center;
+  background-color: #ffa;
+  color: black;
+  padding: 15px;
+  margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<nav class="nav-container">
+  <div class="logo-container">
+    <img src="NLOGOicon.png" alt="title page">
+  </div>
+
+    <ul class="navli-container">
+    <li><a href=" https://lilbean050806-byte.github.io/Week6/">HOME</a></li>
+    <li><a href="https://lilbean050806-byte.github.io/menu.html/">MENU</a></li>
+    <li><a href=" https://lilbean050806-byte.github.io/ABout/ ">ABOUT</a></li>
+    <li><a href=" https://lilbean050806-byte.github.io/Contact/">CONTACT</a></li>
+  </ul>
+</nav>
+
+
+<footer>
+  Because life's too short for boring sandwiches. Greg's got you covered—one crispy baguette at a time.
+</footer>
+
+</body>
 </html>
